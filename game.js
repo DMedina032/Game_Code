@@ -7,7 +7,7 @@ let l = "Left" && "left";
 
 var enterCabin = confirm("You come across an abandoned cabin in the woods. Do you enter?");
 
-if (enterCabin == true) {
+if (enterCabin == true) { 
 	// option to search around the room
   var figurineDirection = prompt("You find yourself in a cozy living room filled with tiny G. I. Joe figurines. Investigate them or look around the room (Left or Right)?");
 
@@ -28,7 +28,7 @@ if (enterCabin == true) {
           var directionTwo = prompt("You have returned to the living room. Do you investigate the right corridor?");
         }
         else {
-          // hahaha wrong choice again
+          // hahaha wrong choice again - now that's just mean
           alert("As you wait in the kitchen, the crackling of something cooking startles you. As you turn around, a shadow from behind suffocates you with cheese. You died!");
         }
       }
